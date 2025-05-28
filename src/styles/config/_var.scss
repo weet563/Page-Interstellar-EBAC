@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+$bgColor: #0d0d0d;
+$bgColorBtn: #1e2a3a;
+$bgColorBtnHover: #2c3e50;
+$colorTitle: #f0f0f0;
+$bgColorbtnCTA: #c5a100;
+$colorText: #e0ffff;
+
+
+@mixin title() {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $colorTitle;
+    font-family: "Rajdhani", sans-serif;
+}
+
+@mixin text() {
+    font-size: 2rem;
+    font-weight: 400;
+    color: $colorText;
+}
+
+@mixin btnCTA() {
+    padding: 15px 18px;
+    background-color: $bgColorbtnCTA;
+    color: $colorTitle;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
